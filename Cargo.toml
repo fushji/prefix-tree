@@ -8,7 +8,7 @@ license = "MIT"
 repository = "https://github.com/fushji/prefix-tree"
 homepage = "https://github.com/fushji/prefix-tree"
 readme = "README.md"
-keywords = ["trie", "prefix tree", "data structure", "rust"]
+keywords = ["trie", "prefix-tree", "data structure", "rust"]
 categories = ["data-structures"]
 
 [dependencies]
