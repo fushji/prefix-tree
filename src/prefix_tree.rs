@@ -71,7 +71,7 @@ impl Trie {
     pub fn insert(&mut self, word: &str) {
         let mut current = &mut self.root;
         for ch in word.chars() {
-            current = current.children.entry(ch).or_insert_with(TrieNode::default);
+            current = current.children.entry(ch).or_default();
         }
         current.is_end_of_word = true;
     }
