@@ -7,7 +7,7 @@
 //! # Examples
 //!
 //! ```
-//! use prefix_tree::Trie;
+//! use prefix_tree_rs::Trie;
 //!
 //! let mut trie = Trie::new();
 //! trie.insert("hello");
@@ -47,7 +47,7 @@ impl Trie {
     /// # Examples
     ///
     /// ```
-    /// use prefix_tree::Trie;
+    /// use prefix_tree_rs::Trie;
     ///
     /// let trie = Trie::new();
     /// ```
@@ -62,7 +62,7 @@ impl Trie {
     /// # Examples
     ///
     /// ```
-    /// use prefix_tree::Trie;
+    /// use prefix_tree_rs::Trie;
     ///
     /// let mut trie = Trie::new();
     /// trie.insert("hello");
@@ -81,7 +81,7 @@ impl Trie {
     /// # Examples
     ///
     /// ```
-    /// use prefix_tree::Trie;
+    /// use prefix_tree_rs::Trie;
     ///
     /// let mut trie = Trie::new();
     /// trie.insert("hello");
@@ -104,7 +104,7 @@ impl Trie {
     /// # Examples
     ///
     /// ```
-    /// use prefix_tree::Trie;
+    /// use prefix_tree_rs::Trie;
     ///
     /// let mut trie = Trie::new();
     /// trie.insert("hello");
@@ -125,6 +125,7 @@ impl Trie {
 
 #[cfg(test)]
 mod tests {
+
     use super::*;
 
     #[test]
