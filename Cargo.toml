@@ -1,5 +1,5 @@
 [package]
-name = "prefix-tree"
+name = "prefix-tree-rs"
 version = "0.1.0"
 edition = "2021"
 authors = ["Antonio Perrone <anperrone86@gmail.com>"]

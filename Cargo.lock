@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "prefix-tree"
+name = "prefix-tree-rs"
 version = "0.1.0"
