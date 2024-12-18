@@ -16,7 +16,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-prefix_tree_rs = "0.1.0"
+prefix_tree_rs = "0.1.1"
 ```
 
 ## Usage
