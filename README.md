@@ -24,7 +24,7 @@ prefix_tree_rs = "0.1.0"
 ### Basic Example
 
 ```rust
-use prefix_tree::Trie;
+use prefix_tree_rs::Trie;
 
 fn main() {
     // Create a new Trie
